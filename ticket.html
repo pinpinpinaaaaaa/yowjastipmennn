@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vin's JASTIP</title>
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="brand">
+            <img src="./img/logo1.jpg" alt="" class="logo">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="ticket.html">TICKET</a></li>
+                <li><a href="contact me.html">CONTACT</a></li>
+            </ul>
+        </div>
+       
+    </nav>
+    <div class="toggle-btn">
+        <i class="fa fa-bars"></i>
+    </div>
+
+
+    <!-- Portfolio -->
+    <section id="about" class="about">
+        <div class="title">
+            <h3>TICKET</h3>
+            <div class="ctn-title">
+                <h1>PROOF OF JASTIP</h1>
+                <h2>Physical ticket exchange services from Jastip </h2>
+                <p>Terms and Conditions will apply during the process</p>
+            </div>
+        </div>
+        <div class="grid-wrapper">
+            <div class="grid-box">
+                <img src="./img/TDS.jpg" alt="">
+            </div>
+            <div class="grid-box">
+                <img src="./img/BeTS.jpeg" alt=""> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+       <h4>About Me</h4> 
+       <p>Anything for you luvzzzz</p>
+       <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whataApp"></i>
+        <i class="fa fa-Telegram"></i>
+       </div>
+       <p>Made with<i class="fa fa-heart-o"></i> by Devina Dewi</p>
+    </section>
+
+    <div class="copyright container">
+        <p>2023</p>
+    </div>
+ 
+    
+    <script>
+        let togglebtn = document.querySelector('.toggle-btn')
+        let navbar = document.querySelector('.navbar')
+
+        togglebtn.addEventListener('click', ()=>{
+            navbar.classList.toggle('mobile-nav')
+        } )
+    </script>
+</body>
+</html>
